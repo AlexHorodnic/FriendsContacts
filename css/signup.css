@@ -1,0 +1,70 @@
+/* ------------------------------------- GENERAL ------------------------------------- */
+body {
+    background-color: #212121;
+    background-image: url("../img/background.png");
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+hr {
+    border: 3px solid darkred;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* ------------------------------------- HEADER ------------------------------------- */
+.header {
+    font-size: 30px;
+    padding-top: 5px;
+    color: darkred;
+    height: 60px;
+    background-color: #212121;
+    text-align: center;
+}
+/* ------------------------------------- MAIN CONTENT ------------------------------------- */
+.container {
+    background-color: #212121;
+    height: 890px;
+}
+
+#announcement {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px
+}
+
+#line {
+    border: 1px solid darkred;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+form {
+    margin-top: 100px;
+    color: white;
+}
+
+#signup {
+    color: black;
+    background-color: darkred;
+}
+
+#sigup:hover {
+        color: white;
+}
+/* ------------------------------------- FOOTER ------------------------------------- */
+.footer {
+    height: 90px;
+    background-color: #212121;
+    text-align: center;
+}

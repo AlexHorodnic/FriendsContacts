@@ -1,0 +1,56 @@
+/* ------------------------------------- GENERAL ------------------------------------- */
+body {
+    background-image: url("../img/background.png");
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+a:hover {
+    color: white;
+}
+hr {
+    border: 3px solid darkred;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* ------------------------------------- HEADER ------------------------------------- */
+.header {
+    font-size: 30px;
+    padding-top: 5px;
+    color: darkred;
+    height: 60px;
+    background-color: #212121;
+    text-align: center;
+}
+/* ------------------------------------- MAIN CONTENT ------------------------------------- */
+.container {
+    background-color: #212121;
+    color: white;
+}
+#friendname {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 22px;
+}
+#info {
+    padding-top: 40px;
+}
+
+#btn_goback {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    height: 400px;
+}
+/* ------------------------------------- FOOTER ------------------------------------- */
+.footer {
+    height: 90px;
+    background-color: #212121;
+    text-align: center;
+}
+#copyright {
+    font-size: 15px;
+    color: darkred;
+}
