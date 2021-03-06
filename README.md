@@ -1,5 +1,5 @@
-# FriendsContacts
-Friends and Contacts Platform | School Project
+
+#Friends and Contacts Platform | School Project
 
 #HTML #CSS #BOOTSTRAP
 
