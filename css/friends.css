@@ -1,0 +1,94 @@
+/* ------------------------------------- GENERAL ------------------------------------- */
+body {
+    background-color: #212121;
+    background-image: url("../img/background.png");
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:hover {
+        color: white;
+}
+
+hr {
+    border: 3px solid darkred;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* ------------------------------------- HEADER ------------------------------------- */
+.header {
+    font-size: 30px;
+    padding-top: 5px;
+    color: darkred;
+    height: 60px;
+    background-color: #212121;
+    text-align: center;
+}
+/* ------------------------------------- MAIN CONTENT ------------------------------------- */
+#row1 {
+    background-color: #212121;
+}
+
+#welcome {
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#announcement {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#profilepic {
+    width: 100%;
+    padding-top: 30px;
+}
+
+#row3 {
+    height: 330px;
+}
+
+#friend {
+    border: 5px solid darkred;
+}
+
+#friend:hover {
+    border: 5px solid red;
+    opacity: 0.7;
+}
+
+#name {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/* ------------------------------------- FOOTER ------------------------------------- */
+.footer {
+    height: 90px;
+    background-color: #212121;
+    text-align: center;
+}
+#copyright {
+    font-size: 15px;
+    color: darkred;
+}
+@media only screen and (max-width: 620px){
+    .header {
+        font-size: 20px;
+        padding-top: 5px;
+        color: darkred;
+        height: 60px;
+        background-color: #212121;
+        text-align: center;
+    }
+}
